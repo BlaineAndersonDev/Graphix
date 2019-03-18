@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './PasswordGenerator.css';
 
-class App extends Component {
+class PasswordGenerator extends Component {
   // Initialize state
   state = { passwords: [] }
 
@@ -21,7 +21,8 @@ class App extends Component {
     const { passwords } = this.state;
 
     return (
-      <div className="App">
+      <div className="PasswordGenerator">
+        <h4>Hello from PasswordGenerator.js</h4>
         {/* Render the passwords if we have them */}
         {passwords.length ? (
           <div>
@@ -61,4 +62,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default PasswordGenerator;
