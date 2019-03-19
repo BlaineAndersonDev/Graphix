@@ -13,6 +13,7 @@ class PasswordGenerator extends Component {
   getPasswords = () => {
     // Get the passwords and store them in state
     fetch('/api/passwords')
+      .catch(err => console.log(err))
       .then(res => res.json())
       .then(passwords => this.setState({ passwords }));
   }
