@@ -1,0 +1,66 @@
+/* Most Smartphones Mobiles (Portrait) */
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+/* Low Resolution Tablets, Mobiles (Landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+/* Tablets, Ipads (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+/* Laptops, Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+/*
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Lora', serif;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Sniglet', cursive;
+*/
+#spinnerContainer{
+  z-index: 10;
+}
+  #spinner{
+    animation: spin 10s linear infinite reverse;
+  }
+  @keyframes spin {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  
+
+  .allJokeContainer{
+    font-family: 'Lora', serif;
+    /* border: 1px red solid; */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white-smoke);
+    background: url(/images/Background2.jpg) #6E7271;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+  }
+  .jokeContainerTitle{
+    flex: 1 0 auto;
+    font-size: 3em;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    width: 60%;
+    color: var(--white-smoke);
+    background: rgba(50, 50, 50, .95);
+    border-radius: 0 0 80px 80px;
+  }
+}
+/* Large Desktops */
+@media (min-width: 1281px) {
+
+}

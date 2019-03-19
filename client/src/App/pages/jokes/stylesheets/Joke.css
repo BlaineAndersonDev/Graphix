@@ -1,0 +1,259 @@
+/* Most Smartphones Mobiles (Portrait) */
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+/* Low Resolution Tablets, Mobiles (Landscape) */
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+/* Tablets, Ipads (portrait) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+/* Laptops, Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .ijContainer{
+    /* border: 3px green solid; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgba(50, 50, 50, .90);
+    border-radius: 10px;
+    margin: 3px;
+    margin-bottom: 50px;
+  }
+    .ijLeftBox{
+      /* border: 1px orange solid; */
+      width: 100%;
+      min-height: 400px;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex: 1 0 0;
+      color: white;
+      margin: 15px;
+      margin-right: 0;
+      top: 0;
+      position: relative;
+    }
+      .ijAvatarTitle{
+        /* border: 1px blue solid; */
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin: 3px;
+      }
+        .ijAvatar{
+          /* border: 1px orange solid; */
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex: 1 0 0;
+          margin: 3px;
+        }
+          .ijUserAvatar{
+            /* border: red 1px solid; */
+            box-shadow: 3px 3px 3px 2px var(--black-smoke);
+          }
+        .ijTitle{
+          /* border: 1px white solid; */
+          font-family: 'Shadows Into Light', cursive;
+          width: 100%;
+          min-height: 75px;
+          font-size: 1.75em;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin: 3px;
+          flex: 4 0 0;
+          border-bottom: 3px var(--white-smoke) solid;
+        }
+      .ijDateAuthor{
+        /* border: 1px blue solid; */
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        margin: 3px;
+        font-size: .75em;
+        position: absolute;
+        top: 100px;
+      }
+        .ijDate{
+          /* border: 1px orange solid; */
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex: 1 0 0;
+          margin: 3px;
+          margin-left: 5%;
+        }
+        .ijAuthor{
+          /* border: 1px white solid; */
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin: 3px;
+          flex: 2 0 0;
+          margin-right: 5%;
+        }
+      .ijDesc{
+        /* border: 1px purple solid; */
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 1em;
+        margin-left: 20px;
+        position: absolute;
+        top: 140px;
+      }
+      .ijEditDelete{
+        /* border: 1px red solid; */
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        bottom: 50px;
+      }
+        .ijEdit{
+          /* border: 1px red solid; */
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin: 3px;
+          flex: 1 0 0;
+        }
+        .ijDelete{
+          /* border: 1px orange solid; */
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          margin: 3px;
+          flex: 1 0 0;
+        }
+          .ijButtonSmall{
+            width: 100%;
+            font-size: 1em;
+            text-decoration: none;
+            color: var(--white-smoke);
+            background: var(--main-color);
+            border: var(--dark-gray) 2px solid;
+            padding: 10px;
+            display: flex; /* Centers Text */
+            justify-content: center;/* Centers Text */
+            align-items: center;/* Centers Text */
+            transition: 0.25s linear;
+          }
+          .ijButtonSmall:hover{
+            background: var(--red-blood);
+            color: var(--black-smoke);
+            border: var(--black-smoke) 2px solid;
+          }
+      .ijReadMoreSocialMedia{
+        /* border: 1px purple solid; */
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+      }
+        .ijReadMore{
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: flex-start;
+          align-items: center;
+          text-align: center;
+          margin: 10px;
+          flex: 2 0 0;
+        }
+          .ijButton{
+            width: 100%;
+            font-size: 1.25em;
+            text-decoration: none;
+            color: var(--white-smoke);
+            background: var(--main-color);
+            border: var(--white-smoke) 1px solid;
+            padding: 10px;
+            display: flex; /* Centers Text */
+            justify-content: center;/* Centers Text */
+            align-items: center;/* Centers Text */
+            transition: 0.25s linear;
+          }
+          .ijButton:hover{
+            background: var(--red-blood);
+            color: var(--black-smoke);
+            border: var(--black-smoke) 1px solid;
+          }
+    .ijRightBox{
+      /* border: 1px red solid; */
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex: 1 0 0;
+      color: white;
+      margin: 15px;
+      margin-left: 0;
+    }
+      .ijImage{
+        border: black 1px solid;
+        box-shadow: 5px 5px 5px 3px var(--black-smoke);
+        max-height: 400px;
+        max-width: 300px;
+      }
+
+
+
+
+
+
+
+
+  }
+  /* Large Desktops */
+  @media (min-width: 1281px) {
+
+  }

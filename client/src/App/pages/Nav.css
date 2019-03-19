@@ -1,0 +1,66 @@
+:root {
+    --dark-gray:#323232;
+    --red-blood:#E63946;
+    --black-smoke:#050403;
+    --white-smoke:#F6F7F8;
+}
+
+#navContainer{
+  background: #323232;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: black 3px solid;
+}
+.navBox{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.navLink{
+  max-height:100px;
+  max-width:100px;
+  font-size: 2em;
+  text-decoration: none;
+  color: white;
+  background: #323232;
+  border: #323232 2px solid;
+  border-bottom: none;
+  padding: 10px;
+  display: flex; /* Centers Text */
+  justify-content: center;/* Centers Text */
+  align-items: center;/* Centers Text */
+  transition: 0.25s linear;
+}
+.navLink:hover{
+  background: #E63946;
+  color: black;
+  border: black 2px solid;
+  border-bottom: none;
+}
+
+
+
+
+.adminSwitch{
+  max-height:100px;
+  max-width:100px;
+  font-size: 1em;
+  text-decoration: none;
+  color: white;
+  background: #323232;
+  border: #323232 2px solid;
+  border-bottom: none;
+  padding: 10px;
+  display: flex; /* Centers Text */
+  justify-content: center;/* Centers Text */
+  align-items: center;/* Centers Text */
+  transition: 0.25s linear;
+}
+.adminSwitch:hover{
+  background: #E63946;
+  color: black;
+  border: black 2px solid;
+  border-bottom: none;
+}
