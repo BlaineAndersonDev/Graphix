@@ -22,7 +22,7 @@ class PasswordGenerator extends Component {
 
     return (
       <div className="PasswordGenerator">
-        <h4>Hello from PasswordGenerator.js</h4>
+        <h4>Hello from PasswordGenerator</h4>
         {/* Render the passwords if we have them */}
         {passwords.length ? (
           <div>

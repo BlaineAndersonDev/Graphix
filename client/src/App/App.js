@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h4>Hello from App.js</h4>
+        <h4>Hello from App</h4>
         <PasswordGenerator />
       </div>
     );
